@@ -13,4 +13,5 @@ def get_the_values(groceries)
    groceries.each do |key, val|
      newArr << val
    end
+   return newArr
 end
