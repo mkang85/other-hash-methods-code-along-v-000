@@ -11,7 +11,9 @@ groceries = {
 def get_the_values(groceries)
   newArr = []
    groceries.each do |key, val|
-     newArr << val
+     val.each do |what|
+       newArr << what
+     end
    end
    return newArr
 end
