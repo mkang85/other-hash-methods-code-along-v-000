@@ -9,5 +9,7 @@ groceries = {
 }
 
 def get_the_values(groceries)
-   groceries.values
+   groceries.map do |key, val|
+     puts val
+   end
 end
