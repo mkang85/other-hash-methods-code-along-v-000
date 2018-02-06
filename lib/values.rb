@@ -9,7 +9,8 @@ groceries = {
 }
 
 def get_the_values(groceries)
-   groceries.map do |key, val|
-     puts val
+  newArr = []
+   groceries.each do |key, val|
+     newArr << val
    end
 end
