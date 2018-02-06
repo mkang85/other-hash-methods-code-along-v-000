@@ -11,7 +11,9 @@ groceries = {
 def get_the_min(groceries)
   newArr = []
   groceries.each do|category, food|
-    newArr << food
+    food.each do |name|
+      newArr << name
+    end
   end
   return newArr.min
 end
